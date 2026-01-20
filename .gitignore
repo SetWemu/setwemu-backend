@@ -137,3 +137,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Security: Firebase Private Service Account Key
+# NEVER upload this file to GitHub. It contains master database credentials.
+serviceAccountKey.json
